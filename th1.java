@@ -1,26 +1,15 @@
-import java.util.Scanner;
-
 public class th1 {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        System.out.print("Nhập vào một số nguyên dương: ");
-        int number = input.nextInt();
-        boolean isPrime = true;
-        int i = 2;
-        while (i <= Math.sqrt(number)) {
-            if (number % i == 0) {
-                isPrime = false;
-                break;
-            }
-            i++;
-        }
-        if (number < 2) {
-            isPrime = false;
-        }
-        if (isPrime) {
-            System.out.println(number + " là số nguyên tố.");
-        } else {
-            System.out.println(number + " không phải là số nguyên tố.");
-        }
+        int  i =5;
+        float o = 10;
+        double d = 20;
+        boolean e = true;
+        char h ='a';
+        String s = "hanoi";
+        System.out.print("i = " +i);
+        System.out.print("o = " +o);
+        System.out.print("d = " +d);
+        System.out.print("e = " +e);
+        System.out.print("h = " +h);
     }
 }
